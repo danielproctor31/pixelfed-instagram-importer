@@ -46,7 +46,6 @@ def main():
         instagram_data = json.load(file)
 
     instagram_data = sorted(instagram_data, key=lambda x: x['creation_timestamp'])
-    instagram_data = instagram_data[9:]
     for item in instagram_data:
         caption = item['title']
         media = item['media']
