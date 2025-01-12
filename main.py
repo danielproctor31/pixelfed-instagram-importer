@@ -4,7 +4,7 @@ import requests
 import os
 
 PIXELFED_HOST = os.environ['PIXELFED_HOST']
-PIXELFED_URL = 'https://{PIXELFED_HOST}/api/v1'
+PIXELFED_URL = f'https://{PIXELFED_HOST}/api/v1'
 ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
 POSTS_FILE = 'data/content/posts_1.json'
 
