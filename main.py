@@ -6,7 +6,7 @@ import os
 PIXELFED_HOST = os.environ['PIXELFED_HOST']
 PIXELFED_URL = f'https://{PIXELFED_HOST}/api/v1'
 ACCESS_TOKEN = os.environ['ACCESS_TOKEN']
-POSTS_FILE = 'data/content/posts_1.json'
+POSTS_FILE = 'data/your_instagram_activity/content/posts_1.json'
 
 def upload_media(uri):
     media_url = f'{PIXELFED_URL}/media'
