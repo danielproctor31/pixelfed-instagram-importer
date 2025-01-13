@@ -6,6 +6,6 @@ Run:
 
 ```
 export PIXELFED_HOST=pixelfed.social
-ACCESS_TOKEN=<insert-access-token>
+export ACCESS_TOKEN=<insert-access-token>
 uv run main.py
 ```
