@@ -32,7 +32,8 @@ def publish_post(caption, media_ids):
     }
     data = {
         'status': caption,
-        'media_ids[]': media_ids
+        'media_ids[]': media_ids,
+        'visibility': 'public'
     }
     response = requests.post(post_url, headers=headers, data=data)
     if response.status_code == 200:
